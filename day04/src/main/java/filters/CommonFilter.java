@@ -16,5 +16,17 @@ public class CommonFilter implements Filter {
         }
 
         filterChain.doFilter(new CommonRequsetWrapper(servletRequest), new CommonResponseWrapper(servletResponse));
+
+    }
+
+    @Override
+    public void init(FilterConfig filterConfig) throws ServletException {
+        String key1 = filterConfig.getInitParameter("key1");
+        System.out.println("key1: " + key1);
+    }
+
+    @Override
+    public void destroy() {
+        System.out.println("common filter destroy");
     }
 }
