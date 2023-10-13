@@ -6,22 +6,55 @@
          version="6.0">
 <!--         metadata-complete="true"> 어노테이션을 사용 못 하기 때문에 삭제-->
 
+    <context-param>
+        <param-name>common1</param-name>
+        <param-value> value1 </param-value>
+    </context-param>
+
     <servlet>
         <servlet-name>helloServlet</servlet-name>
         <servlet-class>servlets.HelloServlet</servlet-class>
+        <init-param>
+            <param-name> key1 </param-name>
+            <param-value> value1 </param-value>
+        </init-param>
+        <init-param>
+            <param-name> key2 </param-name>
+            <param-value> value2 </param-value>
+        </init-param>
+
     </servlet>
+
 
     <servlet-mapping>
         <servlet-name>helloServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
+
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>board-servlet</servlet-name>
-        <servlet-class>servlets.BoardServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>board-servlet</servlet-name>
+<!--    <servlet>-->
+<!--        <servlet-name>board-servlet</servlet-name>-->
+<!--        <servlet-class>servlets.BoardServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>board-servlet</servlet-name>-->
+<!--        <url-pattern>/board</url-pattern>-->
+<!--    </servlet-mapping>-->
+    <filter>
+        <filter-name>filter-ex1</filter-name>
+        <filter-class>filters.FilterEx1</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>filter-ex1</filter-name>
         <url-pattern>/board</url-pattern>
-    </servlet-mapping>
+    </filter-mapping>
+    <filter>
+        <filter-name>filter-ex2</filter-name>
+        <filter-class>filters.FilterEx2</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>filter-ex2</filter-name>
+        <url-pattern>/board</url-pattern>
+    </filter-mapping>
+
 </web-app>
