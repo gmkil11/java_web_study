@@ -13,7 +13,7 @@ import java.util.Arrays;
 public class BoardServlet extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
+        resp.setContentType("text/html; charset=UTF-8");
         resp.setCharacterEncoding("UTF-8");
         PrintWriter out = resp.getWriter();
         out.print("<form method='post' action='/day04/board'>");
