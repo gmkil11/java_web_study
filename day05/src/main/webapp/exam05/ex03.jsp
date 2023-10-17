@@ -9,6 +9,7 @@
 <%--<jsp:setProperty name="member" property="email" />--%>
 
 <jsp:setProperty name="member" property="*" /> <%--전달된 모든 항목 값을 자동으로 넣어줌--%>
+<jsp:setProperty name="member" property="userId" param="memId"/>
 
 아이디: <jsp:getProperty name="member" property="userId"/><br>
 비밀번호: <jsp:getProperty name="member" property="userPw"/><br>
