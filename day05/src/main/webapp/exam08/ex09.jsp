@@ -1,9 +1,9 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="fmt" uri="jakarta.tags.fmt" %>
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
-<fmt:bundle basename="messages.commons"/>
+<fmt:setLocale value="en"/>
+<fmt:bundle basename="messages.commons" />
 <c:url var="action" value="/member/login"/>
-
 <fmt:setBundle basename="messages.commons"/>
 <form method="post" action="${action}">
     <dl>
