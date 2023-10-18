@@ -1,0 +1,421 @@
+18-Oct-2023 19:28:01.671 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.14
+18-Oct-2023 19:28:01.678 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 9 2023 21:01:11 UTC
+18-Oct-2023 19:28:01.678 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.14.0
+18-Oct-2023 19:28:01.679 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+18-Oct-2023 19:28:01.679 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.3.1
+18-Oct-2023 19:28:01.679 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+18-Oct-2023 19:28:01.679 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/mingyugil/Library/Java/JavaVirtualMachines/jbr-21/Contents/Home
+18-Oct-2023 19:28:01.679 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21+9-b126.4
+18-Oct-2023 19:28:01.679 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          JetBrains s.r.o.
+18-Oct-2023 19:28:01.680 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:28:01.680 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:28:01.699 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2023 19:28:01.699 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2023 19:28:01.699 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2023 19:28:01.699 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2023 19:28:01.699 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2023 19:28:01.700 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:28:01.700 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:28:01.700 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/temp
+18-Oct-2023 19:28:01.700 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/logging.properties
+18-Oct-2023 19:28:01.700 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2023 19:28:01.700 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49361:/Applications/IntelliJ IDEA.app/Contents/bin
+18-Oct-2023 19:28:01.701 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Oct-2023 19:28:01.701 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+18-Oct-2023 19:28:01.701 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+18-Oct-2023 19:28:01.726 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/mingyugil/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Oct-2023 19:28:02.146 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Oct-2023 19:28:02.158 심각 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 구성요소 [Connector["http-nio-3000"]]을(를) 초기화하지 못했습니다.
+	org.apache.catalina.LifecycleException: 프로토콜 핸들러 초기화가 실패했습니다.
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1015)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1010)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:247)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1280)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1293)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:624)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1013)
+		... 11 more
+18-Oct-2023 19:28:02.160 정보 [main] org.apache.catalina.startup.Catalina.load [773] 밀리초 내에 서버가 초기화되었습니다.
+18-Oct-2023 19:28:02.209 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Oct-2023 19:28:02.209 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.14]
+18-Oct-2023 19:28:02.220 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]을(를) 배치합니다.
+18-Oct-2023 19:28:02.738 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]의 배치가 [514] 밀리초 내에 완료되었습니다.
+18-Oct-2023 19:28:02.742 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [581] 밀리초 내에 시작되었습니다.
+18-Oct-2023 19:28:02.747 심각 [main] org.apache.catalina.core.StandardServer.await 주소 [localhost]와(과) 포트 [8005]에, 서버 셧다운 소켓을 생성하지 못했습니다. (base 포트 [8005], offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:631)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:577)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:887)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:833)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+18-Oct-2023 19:28:02.748 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Oct-2023 19:28:02.748 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Oct-2023 19:28:02.759 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Oct-2023 19:28:02.759 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Oct-2023 19:28:22.944 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.14
+18-Oct-2023 19:28:22.949 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 9 2023 21:01:11 UTC
+18-Oct-2023 19:28:22.950 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.14.0
+18-Oct-2023 19:28:22.950 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+18-Oct-2023 19:28:22.950 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.3.1
+18-Oct-2023 19:28:22.950 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+18-Oct-2023 19:28:22.950 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/mingyugil/Library/Java/JavaVirtualMachines/jbr-21/Contents/Home
+18-Oct-2023 19:28:22.951 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21+9-b126.4
+18-Oct-2023 19:28:22.951 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          JetBrains s.r.o.
+18-Oct-2023 19:28:22.951 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:28:22.951 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:28:22.965 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2023 19:28:22.965 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2023 19:28:22.965 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2023 19:28:22.965 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2023 19:28:22.965 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2023 19:28:22.966 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:28:22.966 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:28:22.966 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/temp
+18-Oct-2023 19:28:22.966 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/logging.properties
+18-Oct-2023 19:28:22.966 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2023 19:28:22.966 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49458:/Applications/IntelliJ IDEA.app/Contents/bin
+18-Oct-2023 19:28:22.966 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Oct-2023 19:28:22.966 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+18-Oct-2023 19:28:22.967 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+18-Oct-2023 19:28:22.985 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/mingyugil/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Oct-2023 19:28:23.386 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Oct-2023 19:28:23.411 정보 [main] org.apache.catalina.startup.Catalina.load [713] 밀리초 내에 서버가 초기화되었습니다.
+18-Oct-2023 19:28:23.458 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Oct-2023 19:28:23.458 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.14]
+18-Oct-2023 19:28:23.476 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]을(를) 배치합니다.
+18-Oct-2023 19:28:23.923 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]의 배치가 [443] 밀리초 내에 완료되었습니다.
+18-Oct-2023 19:28:23.926 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Oct-2023 19:28:23.944 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [532] 밀리초 내에 시작되었습니다.
+18-Oct-2023 19:29:45.468 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Oct-2023 19:29:45.471 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Oct-2023 19:29:45.486 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Oct-2023 19:29:45.497 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Oct-2023 19:36:59.341 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.14
+18-Oct-2023 19:36:59.347 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 9 2023 21:01:11 UTC
+18-Oct-2023 19:36:59.347 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.14.0
+18-Oct-2023 19:36:59.347 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+18-Oct-2023 19:36:59.347 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.3.1
+18-Oct-2023 19:36:59.348 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+18-Oct-2023 19:36:59.348 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/mingyugil/Library/Java/JavaVirtualMachines/jbr-21/Contents/Home
+18-Oct-2023 19:36:59.348 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21+9-b126.4
+18-Oct-2023 19:36:59.348 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          JetBrains s.r.o.
+18-Oct-2023 19:36:59.348 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:36:59.348 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:36:59.364 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2023 19:36:59.365 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2023 19:36:59.365 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2023 19:36:59.365 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2023 19:36:59.365 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2023 19:36:59.365 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:36:59.365 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:36:59.365 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/temp
+18-Oct-2023 19:36:59.365 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/logging.properties
+18-Oct-2023 19:36:59.366 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2023 19:36:59.366 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51735:/Applications/IntelliJ IDEA.app/Contents/bin
+18-Oct-2023 19:36:59.366 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Oct-2023 19:36:59.366 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+18-Oct-2023 19:36:59.366 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+18-Oct-2023 19:36:59.390 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/mingyugil/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Oct-2023 19:36:59.820 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Oct-2023 19:36:59.843 정보 [main] org.apache.catalina.startup.Catalina.load [841] 밀리초 내에 서버가 초기화되었습니다.
+18-Oct-2023 19:36:59.905 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Oct-2023 19:36:59.905 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.14]
+18-Oct-2023 19:36:59.940 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]을(를) 배치합니다.
+18-Oct-2023 19:37:00.454 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]의 배치가 [510] 밀리초 내에 완료되었습니다.
+18-Oct-2023 19:37:00.458 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Oct-2023 19:37:00.480 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [636] 밀리초 내에 시작되었습니다.
+18-Oct-2023 19:44:23.729 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Oct-2023 19:44:23.733 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Oct-2023 19:44:23.747 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Oct-2023 19:44:23.759 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Oct-2023 19:44:28.528 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.14
+18-Oct-2023 19:44:28.533 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 9 2023 21:01:11 UTC
+18-Oct-2023 19:44:28.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.14.0
+18-Oct-2023 19:44:28.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+18-Oct-2023 19:44:28.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.3.1
+18-Oct-2023 19:44:28.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+18-Oct-2023 19:44:28.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/mingyugil/Library/Java/JavaVirtualMachines/jbr-21/Contents/Home
+18-Oct-2023 19:44:28.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21+9-b126.4
+18-Oct-2023 19:44:28.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          JetBrains s.r.o.
+18-Oct-2023 19:44:28.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:44:28.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:44:28.549 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2023 19:44:28.549 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2023 19:44:28.549 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2023 19:44:28.549 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2023 19:44:28.549 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2023 19:44:28.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:44:28.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:44:28.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/temp
+18-Oct-2023 19:44:28.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/logging.properties
+18-Oct-2023 19:44:28.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2023 19:44:28.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=53667:/Applications/IntelliJ IDEA.app/Contents/bin
+18-Oct-2023 19:44:28.551 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Oct-2023 19:44:28.551 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+18-Oct-2023 19:44:28.551 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+18-Oct-2023 19:44:28.571 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/mingyugil/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Oct-2023 19:44:28.992 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Oct-2023 19:44:29.021 정보 [main] org.apache.catalina.startup.Catalina.load [773] 밀리초 내에 서버가 초기화되었습니다.
+18-Oct-2023 19:44:29.078 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Oct-2023 19:44:29.079 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.14]
+18-Oct-2023 19:44:29.099 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]을(를) 배치합니다.
+18-Oct-2023 19:44:29.561 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]의 배치가 [458] 밀리초 내에 완료되었습니다.
+18-Oct-2023 19:44:29.565 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Oct-2023 19:44:29.583 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [560] 밀리초 내에 시작되었습니다.
+18-Oct-2023 19:45:49.719 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Oct-2023 19:45:49.723 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Oct-2023 19:45:49.738 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Oct-2023 19:45:49.748 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Oct-2023 19:45:53.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.14
+18-Oct-2023 19:45:53.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 9 2023 21:01:11 UTC
+18-Oct-2023 19:45:53.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.14.0
+18-Oct-2023 19:45:53.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+18-Oct-2023 19:45:53.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.3.1
+18-Oct-2023 19:45:53.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+18-Oct-2023 19:45:53.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/mingyugil/Library/Java/JavaVirtualMachines/jbr-21/Contents/Home
+18-Oct-2023 19:45:53.082 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21+9-b126.4
+18-Oct-2023 19:45:53.082 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          JetBrains s.r.o.
+18-Oct-2023 19:45:53.082 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:45:53.082 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:45:53.096 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2023 19:45:53.096 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2023 19:45:53.096 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2023 19:45:53.096 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2023 19:45:53.096 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2023 19:45:53.097 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:45:53.097 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:45:53.097 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/temp
+18-Oct-2023 19:45:53.097 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/logging.properties
+18-Oct-2023 19:45:53.097 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2023 19:45:53.097 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=54035:/Applications/IntelliJ IDEA.app/Contents/bin
+18-Oct-2023 19:45:53.097 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Oct-2023 19:45:53.097 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+18-Oct-2023 19:45:53.097 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+18-Oct-2023 19:45:53.117 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/mingyugil/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Oct-2023 19:45:53.472 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Oct-2023 19:45:53.494 정보 [main] org.apache.catalina.startup.Catalina.load [779] 밀리초 내에 서버가 초기화되었습니다.
+18-Oct-2023 19:45:53.550 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Oct-2023 19:45:53.550 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.14]
+18-Oct-2023 19:45:53.569 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]을(를) 배치합니다.
+18-Oct-2023 19:45:54.106 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]의 배치가 [532] 밀리초 내에 완료되었습니다.
+18-Oct-2023 19:45:54.110 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Oct-2023 19:45:54.131 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [635] 밀리초 내에 시작되었습니다.
+18-Oct-2023 19:46:05.127 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Oct-2023 19:46:05.132 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Oct-2023 19:46:05.144 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Oct-2023 19:46:05.159 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Oct-2023 19:46:08.152 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.14
+18-Oct-2023 19:46:08.156 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 9 2023 21:01:11 UTC
+18-Oct-2023 19:46:08.157 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.14.0
+18-Oct-2023 19:46:08.157 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+18-Oct-2023 19:46:08.157 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.3.1
+18-Oct-2023 19:46:08.157 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+18-Oct-2023 19:46:08.157 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/mingyugil/Library/Java/JavaVirtualMachines/jbr-21/Contents/Home
+18-Oct-2023 19:46:08.157 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21+9-b126.4
+18-Oct-2023 19:46:08.157 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          JetBrains s.r.o.
+18-Oct-2023 19:46:08.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:46:08.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:46:08.171 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2023 19:46:08.171 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2023 19:46:08.171 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2023 19:46:08.171 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2023 19:46:08.172 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2023 19:46:08.172 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:46:08.172 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:46:08.172 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/temp
+18-Oct-2023 19:46:08.172 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/logging.properties
+18-Oct-2023 19:46:08.172 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2023 19:46:08.172 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=54105:/Applications/IntelliJ IDEA.app/Contents/bin
+18-Oct-2023 19:46:08.173 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Oct-2023 19:46:08.173 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+18-Oct-2023 19:46:08.173 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+18-Oct-2023 19:46:08.193 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/mingyugil/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Oct-2023 19:46:08.622 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Oct-2023 19:46:08.644 정보 [main] org.apache.catalina.startup.Catalina.load [761] 밀리초 내에 서버가 초기화되었습니다.
+18-Oct-2023 19:46:08.690 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Oct-2023 19:46:08.690 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.14]
+18-Oct-2023 19:46:08.701 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]을(를) 배치합니다.
+18-Oct-2023 19:46:09.162 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]의 배치가 [457] 밀리초 내에 완료되었습니다.
+18-Oct-2023 19:46:09.165 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Oct-2023 19:46:09.184 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [538] 밀리초 내에 시작되었습니다.
+18-Oct-2023 19:46:49.075 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Oct-2023 19:46:49.079 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Oct-2023 19:46:49.092 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Oct-2023 19:46:49.106 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Oct-2023 19:46:50.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.14
+18-Oct-2023 19:46:50.967 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 9 2023 21:01:11 UTC
+18-Oct-2023 19:46:50.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.14.0
+18-Oct-2023 19:46:50.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+18-Oct-2023 19:46:50.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.3.1
+18-Oct-2023 19:46:50.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+18-Oct-2023 19:46:50.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/mingyugil/Library/Java/JavaVirtualMachines/jbr-21/Contents/Home
+18-Oct-2023 19:46:50.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21+9-b126.4
+18-Oct-2023 19:46:50.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          JetBrains s.r.o.
+18-Oct-2023 19:46:50.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:46:50.969 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:46:50.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2023 19:46:50.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2023 19:46:50.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2023 19:46:50.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2023 19:46:50.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2023 19:46:50.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:46:50.987 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:46:50.987 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/temp
+18-Oct-2023 19:46:50.987 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/logging.properties
+18-Oct-2023 19:46:50.987 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2023 19:46:50.987 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=54297:/Applications/IntelliJ IDEA.app/Contents/bin
+18-Oct-2023 19:46:50.987 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Oct-2023 19:46:50.987 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+18-Oct-2023 19:46:50.987 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+18-Oct-2023 19:46:51.011 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/mingyugil/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Oct-2023 19:46:51.562 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Oct-2023 19:46:51.600 정보 [main] org.apache.catalina.startup.Catalina.load [922] 밀리초 내에 서버가 초기화되었습니다.
+18-Oct-2023 19:46:51.670 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Oct-2023 19:46:51.670 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.14]
+18-Oct-2023 19:46:51.685 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]을(를) 배치합니다.
+18-Oct-2023 19:46:52.186 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]의 배치가 [498] 밀리초 내에 완료되었습니다.
+18-Oct-2023 19:46:52.190 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Oct-2023 19:46:52.211 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [608] 밀리초 내에 시작되었습니다.
+18-Oct-2023 19:48:17.315 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Oct-2023 19:48:17.319 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Oct-2023 19:48:17.333 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Oct-2023 19:48:17.346 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Oct-2023 19:48:20.368 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.14
+18-Oct-2023 19:48:20.373 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 9 2023 21:01:11 UTC
+18-Oct-2023 19:48:20.373 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.14.0
+18-Oct-2023 19:48:20.373 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+18-Oct-2023 19:48:20.374 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.3.1
+18-Oct-2023 19:48:20.374 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+18-Oct-2023 19:48:20.374 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/mingyugil/Library/Java/JavaVirtualMachines/jbr-21/Contents/Home
+18-Oct-2023 19:48:20.374 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21+9-b126.4
+18-Oct-2023 19:48:20.374 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          JetBrains s.r.o.
+18-Oct-2023 19:48:20.374 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:48:20.375 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:48:20.388 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2023 19:48:20.388 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2023 19:48:20.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2023 19:48:20.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2023 19:48:20.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2023 19:48:20.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:48:20.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:48:20.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/temp
+18-Oct-2023 19:48:20.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/logging.properties
+18-Oct-2023 19:48:20.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2023 19:48:20.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=54683:/Applications/IntelliJ IDEA.app/Contents/bin
+18-Oct-2023 19:48:20.390 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Oct-2023 19:48:20.390 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+18-Oct-2023 19:48:20.390 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+18-Oct-2023 19:48:20.409 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/mingyugil/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Oct-2023 19:48:20.837 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Oct-2023 19:48:20.858 정보 [main] org.apache.catalina.startup.Catalina.load [738] 밀리초 내에 서버가 초기화되었습니다.
+18-Oct-2023 19:48:20.904 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Oct-2023 19:48:20.905 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.14]
+18-Oct-2023 19:48:20.915 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]을(를) 배치합니다.
+18-Oct-2023 19:48:21.470 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]의 배치가 [551] 밀리초 내에 완료되었습니다.
+18-Oct-2023 19:48:21.473 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Oct-2023 19:48:21.490 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [631] 밀리초 내에 시작되었습니다.
+18-Oct-2023 19:51:24.478 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Oct-2023 19:51:24.481 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Oct-2023 19:51:24.494 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Oct-2023 19:51:24.508 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Oct-2023 19:51:27.630 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.14
+18-Oct-2023 19:51:27.636 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 9 2023 21:01:11 UTC
+18-Oct-2023 19:51:27.637 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.14.0
+18-Oct-2023 19:51:27.637 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+18-Oct-2023 19:51:27.637 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.3.1
+18-Oct-2023 19:51:27.637 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+18-Oct-2023 19:51:27.637 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/mingyugil/Library/Java/JavaVirtualMachines/jbr-21/Contents/Home
+18-Oct-2023 19:51:27.637 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21+9-b126.4
+18-Oct-2023 19:51:27.638 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          JetBrains s.r.o.
+18-Oct-2023 19:51:27.638 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:51:27.638 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:51:27.654 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2023 19:51:27.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2023 19:51:27.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2023 19:51:27.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2023 19:51:27.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2023 19:51:27.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:51:27.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:51:27.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/temp
+18-Oct-2023 19:51:27.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/logging.properties
+18-Oct-2023 19:51:27.656 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2023 19:51:27.656 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55495:/Applications/IntelliJ IDEA.app/Contents/bin
+18-Oct-2023 19:51:27.656 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Oct-2023 19:51:27.656 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+18-Oct-2023 19:51:27.656 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+18-Oct-2023 19:51:27.678 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/mingyugil/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Oct-2023 19:51:28.093 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Oct-2023 19:51:28.117 정보 [main] org.apache.catalina.startup.Catalina.load [750] 밀리초 내에 서버가 초기화되었습니다.
+18-Oct-2023 19:51:28.192 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Oct-2023 19:51:28.192 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.14]
+18-Oct-2023 19:51:28.219 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]을(를) 배치합니다.
+18-Oct-2023 19:51:28.688 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]의 배치가 [466] 밀리초 내에 완료되었습니다.
+18-Oct-2023 19:51:28.691 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Oct-2023 19:51:28.709 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [590] 밀리초 내에 시작되었습니다.
+18-Oct-2023 19:51:45.107 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Oct-2023 19:51:45.111 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Oct-2023 19:51:45.124 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Oct-2023 19:51:45.136 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Oct-2023 19:51:48.144 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.14
+18-Oct-2023 19:51:48.149 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 9 2023 21:01:11 UTC
+18-Oct-2023 19:51:48.149 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.14.0
+18-Oct-2023 19:51:48.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+18-Oct-2023 19:51:48.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.3.1
+18-Oct-2023 19:51:48.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+18-Oct-2023 19:51:48.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/mingyugil/Library/Java/JavaVirtualMachines/jbr-21/Contents/Home
+18-Oct-2023 19:51:48.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21+9-b126.4
+18-Oct-2023 19:51:48.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          JetBrains s.r.o.
+18-Oct-2023 19:51:48.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:51:48.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:51:48.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2023 19:51:48.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2023 19:51:48.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2023 19:51:48.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2023 19:51:48.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2023 19:51:48.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/apache-tomcat-10.1.14
+18-Oct-2023 19:51:48.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04
+18-Oct-2023 19:51:48.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/temp
+18-Oct-2023 19:51:48.166 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/logging.properties
+18-Oct-2023 19:51:48.166 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2023 19:51:48.166 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55589:/Applications/IntelliJ IDEA.app/Contents/bin
+18-Oct-2023 19:51:48.166 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Oct-2023 19:51:48.166 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+18-Oct-2023 19:51:48.166 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+18-Oct-2023 19:51:48.189 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/mingyugil/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Oct-2023 19:51:48.590 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Oct-2023 19:51:48.616 정보 [main] org.apache.catalina.startup.Catalina.load [719] 밀리초 내에 서버가 초기화되었습니다.
+18-Oct-2023 19:51:48.666 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Oct-2023 19:51:48.666 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.14]
+18-Oct-2023 19:51:48.687 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]을(를) 배치합니다.
+18-Oct-2023 19:51:49.171 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/day04/conf/Catalina/localhost/member.xml]의 배치가 [481] 밀리초 내에 완료되었습니다.
+18-Oct-2023 19:51:49.174 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Oct-2023 19:51:49.199 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [580] 밀리초 내에 시작되었습니다.
+18-Oct-2023 19:52:47.294 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Oct-2023 19:52:47.298 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Oct-2023 19:52:47.314 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Oct-2023 19:52:47.325 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.

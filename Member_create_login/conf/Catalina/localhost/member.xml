@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/Member_create_login">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="/Users/mingyugil/Documents/itac/JavaSpringAC/5. 프로그래밍 언어 활용/web_study/Member_create_login/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+  </Resources>
+</Context>
