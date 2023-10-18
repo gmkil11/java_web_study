@@ -8,3 +8,4 @@ medium : <fmt:formatDate value="${date}" type="both" dateStyle="medium" timeStyl
 short : <fmt:formatDate value="${date}" type="both" dateStyle="short" timeStyle="short" /> <br>
 
 <fmt:formatDate value="${date}" type="both" pattern="YYYY/MM/dd HH:mm:SS (E)" />
+
