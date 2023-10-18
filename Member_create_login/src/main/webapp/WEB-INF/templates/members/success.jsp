@@ -1,6 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="jakarta.tags.core"%>
 
+
 <html>
 <head>
     <title>로그인 완료</title>
@@ -10,7 +11,9 @@
     <h1>로그인 완료</h1>
 
     <!-- 회원 정보 -->
-    <h2>회원 정보</h2>
+    <h2>사용자명: ${param.get("userId")} </h2>
+    <h2>비밀번호: ${param.get("userPw")}</h2>
+    <h2>이름: ${param.get("userNm")}</h2>
 
     <!-- 로그아웃 버튼 -->
     <form action="<c:url value="/"/>">

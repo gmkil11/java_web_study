@@ -8,7 +8,7 @@
 </head>
 <body style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #D2D2D2">
 <div style="text-align: center; border: 2px solid #999; border-radius: 10px; padding: 20px; background-color: white; box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);" >
-   <form action="<c:url value="/success"/>" >
+   <form action="<c:url value="/success"/>">
     <h1 style="margin-bottom: 50px;" >회원가입</h1>
     <label for="userId">아이디</label>
     <input type="text" id="userId" name="userId" style="margin-bottom: 10px; width: 100%; border-radius: 10px; border: 1px solid black; padding: 5px;"><br>

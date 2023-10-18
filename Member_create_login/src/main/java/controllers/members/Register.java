@@ -9,6 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import models.members.Member;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,18 +23,7 @@ public class Register extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        List<Member> members = new ArrayList<>();
 
-        // 사용자가 입력한 정보 가져오기
-        String userId = req.getParameter("userID");
-        String userPw = req.getParameter("userPw");
-        String userNm = req.getParameter("userNm");
-
-        // 사용자 정보를 User 객체로 만들어 리스트에 추가
-        Member member = new Member(userId, userPw, userNm);
-        members.add(member);
-
-        System.out.println(members);
         resp.sendRedirect("/success");
     }
 
