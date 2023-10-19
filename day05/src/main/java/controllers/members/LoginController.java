@@ -25,5 +25,7 @@ public class LoginController extends HttpServlet {
         RequestDispatcher rd = req.getRequestDispatcher("/WEB-INF/templates/member/login.jsp");
         rd.forward(req, resp);
 
+
+
     }
 }
